@@ -1,5 +1,3 @@
-#Mani Khodas kir bokhor dp 
-
 APIReymit = "ZjcxZTkxZGFiMjRlMTBjN0EvSEdpVXczQTZaYWFUN3ZDNE9oV3Z5K0YrZnpGTERzVEtscHJkS3g5Qmc9s"
 
 # دریافت اطلاعات کاربر صاحب توکن:
