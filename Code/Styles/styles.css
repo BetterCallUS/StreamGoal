@@ -1,6 +1,6 @@
 @import url(./fonts.css);
-@import url(./variables.css);
-@import url(./base.css);
-@import url(./animtions.css);
+@import url(./Variables.css);
 @import url(./Goal.css);
 @import url(./MediaSetting.css);
+@import url(./base.css);
+@import url(./animtions.css);

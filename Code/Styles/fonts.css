@@ -2,26 +2,26 @@
 
 /* Vazir Matn Font */
 @font-face {
-    font-family: Description1;
-    src: url(fonts/VazirMatn/Vazirmatn-Regular.ttf);
-    font-weight: normal;
-  }
+    font-family: Title1;
+    src: url("fonts/VazirMatn/Vazirmatn-Black.ttf") format('truetype');
+    font-weight: bold;
+}
 
 @font-face {
-    font-family: Title1;
-    src: url(fonts/VazirMatn/Vazirmatn-Black.ttf);
-    font-weight: Bold;
+    font-family: Desciption1;
+    src: url("fonts/IRANFont/IRAN_BoldFaNum.woff") format('woff');
+    font-weight: normal;
 }
 
 /* IRAN Font */
 @font-face {
-    font-family: Description2;
-    src: url(fonts/IRANFont/IRANFaNum.woff);
-    font-weight: normal;
+    font-family: Title2;
+    src: url("fonts/VazirMatn/Vazirmatn-Regular.ttf") format('truetype');
+    font-weight: bold;
 }
 
 @font-face {
-    font-family: Title2;
-    src: url(fonts/IRANFont/IRAN_BoldFaNum.woff);
+    font-family: Desciption2;
+    src: url("fonts/VazirMatn/Vazirmatn-Medium.ttf") format('truetype');
     font-weight: normal;
 }

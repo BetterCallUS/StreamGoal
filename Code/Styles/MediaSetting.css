@@ -1,9 +1,3 @@
-/*--- Frames URL ---*/
-
-/*--- Idle GIF URL ---*/
-#Frame1{background-image: url(./assets/Marci.png);}
-
-
 /* Base Media Settings */
 .Photo{
 
@@ -12,3 +6,44 @@
 #GoalSlides{
     
 }
+
+/*--- Frames URL ---*/
+#Frame1{}
+#Frame2{}
+#Frame3{}
+#Frame4{}
+#Frame5{}
+#Frame6{}
+#Frame8{}
+#Frame9{}
+#Frame10{}
+
+/*--- Idle GIF URL ---*/
+#Idle1{
+    
+}
+#Idle2{
+    
+}
+#Idle3{
+    
+}
+#Idle4{
+    
+}
+#Idle5{
+    
+}
+#Idle6{
+    
+}
+#Idle8{
+    
+}
+#Idle9{
+    
+}
+#Idle10{
+    
+}
+

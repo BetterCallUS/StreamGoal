@@ -1,35 +1,50 @@
+*
+{
+    box-sizing: content-box;
+}
 html
 {
-    width: 600px;
-    height: 600px;
+    width: var(--GoalFrameWidth);
+    height: var(--GoalFrameHeight);
+    margin: 0px auto; overflow: hidden;
+    padding: 0px;
 }
 
 body
 { 
     direction: rtl;
-    text-align: right;
-    background-color: rgba(0, 0, 0, 0);
-    margin: 0px auto; overflow: hidden;
+    text-align: var(--TextAlign);
+    background-color: rgba(0, 0, 0, 0) !important;
+    margin: 0px auto !important; overflow: hidden !important;
+    padding: 0px;
 }
 
 /* Texts and Typographies */
-.UseFont_Title1{
+.UseFont_Title1
+{
     font-family: Title1;
     color:var(--TitleColor);
     font-size: var(--TitleSize);
 }
-.UseFont_Description1{
+.UseFont_Description1
+{
     font-family: Desciption1;
     color:var(--Description);
     font-size: var(--DescriptionSize);
 }
-.UseFont_Title2{
+.UseFont_Title2
+{
     font-family: Title2;
     color:var(--TitleColor);
     font-size: var(--TitleSize);
 }
-.UseFont_Description2{
+.UseFont_Description2
+{
     font-family: Desciption2;
     color:var(--Description);
     font-size: var(--DescriptionSize);
+}
+h1,h2,h3,h4,h5,h6,p,span{
+    padding: 0;
+    margin: 0;
 }

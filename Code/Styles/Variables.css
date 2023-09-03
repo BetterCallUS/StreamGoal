@@ -1,17 +1,18 @@
 :root
 {
     /*--- Title and Description ---*/
-    --TitleColor:Black;
+    --TitleColor:#c6ff70;
     --TitleSize:2.2rem;
-    --Description:gray;
-    --DescriptionSize:1.8rem;
+    --Description:#d3d3d3;
+    --DescriptionSize:3rem;
+    --TextAlign:right;
 
     /*--- Goal Frame Settings ---*/
     --GoalFrameRoundness:50px;
     --GoalFrameWidth:800px;
     --GoalFrameHeight:600px;
-    --GoalFramePadding:250px;
-    --GoalBackgroundColor:#dedede; /*its just for test RN*/
+    --GoalFramePadding:25px;
+    --GoalBackgroundColor:#4b4b4b; /*its just for test RN*/
 
     /*--- Goal Progress Photos ---*/
     --Photo1:"assets/Frame1.png";
