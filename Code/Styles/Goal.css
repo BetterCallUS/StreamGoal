@@ -1,0 +1,7 @@
+#GoalFrame
+{
+    background-color: var(--GoalBackgroundColor);
+    border-radius: var(--GoalFrameRoundness);
+    width: var(--GoalFrameWidth);
+    height: var(--GoalFrameHeight);
+}

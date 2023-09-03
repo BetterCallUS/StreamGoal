@@ -1,0 +1,32 @@
+html
+{
+    width: 600px;
+    height: 600px;
+}
+
+body
+{ 
+    direction: rtl;
+    text-align: right;
+    background-color: rgba(0, 0, 0, 0);
+    margin: 0px auto; overflow: hidden;
+}
+
+/* Texts and Typographies */
+.UseFont_Title1{
+    font-family: Title1;
+    color:var(--TitleColor);
+    font-size: 2.5rem;
+}
+.UseFont_Description1{
+    font-family: Desciption1;
+    color:var(--Description);
+}
+.UseFont_Title2{
+    font-family: Title2;
+    color:var(--TitleColor);
+}
+.UseFont_Description2{
+    font-family: Desciption2;
+    color:var(--Description);
+}
