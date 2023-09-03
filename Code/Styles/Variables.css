@@ -1,14 +1,17 @@
 :root
 {
+    /*--- Title and Description ---*/
     --TitleColor:Black;
+    --TitleSize:2.2rem;
     --Description:gray;
-    --GoalBackgroundColor:#dedede; /*its just for test RN*/
+    --DescriptionSize:1.8rem;
 
     /*--- Goal Frame Settings ---*/
     --GoalFrameRoundness:50px;
     --GoalFrameWidth:800px;
     --GoalFrameHeight:600px;
     --GoalFramePadding:250px;
+    --GoalBackgroundColor:#dedede; /*its just for test RN*/
 
     /*--- Goal Progress Photos ---*/
     --Photo1:"assets/Frame1.png";
@@ -23,14 +26,14 @@
     --Photo10:"assets/Frame10.png";
 
     /*--- Goal Progress Gifs ---*/
-    --Gif1:"assets/Frame1.gif";
-    --Gif2:"assets/Frame2.gif";
-    --Gif3:"assets/Frame3.gif";
-    --Gif4:"assets/Frame4.gif";
-    --Gif5:"assets/Frame5.gif";
-    --Gif6:"assets/Frame6.gif";
-    --Gif7:"assets/Frame7.gif";
-    --Gif8:"assets/Frame8.gif";
-    --Gif9:"assets/Frame9.gif";
-    --Gif1:"assets/Frame10.gif";
+    --Idle1:"assets/Frame1.gif";
+    --Idle2:"assets/Frame2.gif";
+    --Idle3:"assets/Frame3.gif";
+    --Idle4:"assets/Frame4.gif";
+    --Idle5:"assets/Frame5.gif";
+    --Idle6:"assets/Frame6.gif";
+    --Idle7:"assets/Frame7.gif";
+    --Idle8:"assets/Frame8.gif";
+    --Idle9:"assets/Frame9.gif";
+    --Idle10:"assets/Frame10.gif";
 }

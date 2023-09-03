@@ -1,6 +1,14 @@
+/*--- Frames URL ---*/
+
+/*--- Idle GIF URL ---*/
+#Frame1{background-image: url(./assets/Marci.png);}
+
+
+/* Base Media Settings */
 .Photo{
 
 }
-.AnimationsContainer{
+
+#GoalSlides{
     
 }
