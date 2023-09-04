@@ -1,41 +1,45 @@
 *
 {
-    box-sizing: content-box;
+    box-sizing: border-box;
 }
 html
 {
-    width: var(--GoalFrameWidth);
-    height: var(--GoalFrameHeight);
+    width: 800px;
+    height: 800px;
     margin: 0px auto; overflow: hidden;
     padding: 0px;
 }
-
 body
 { 
+    width:100%;
+    height: 100%;
     direction: rtl;
     text-align: var(--TextAlign);
-    background-color: rgba(0, 0, 0, 0) !important;
+    background-color: rgba(145, 47, 47, 0) !important;
     margin: 0px auto !important; overflow: hidden !important;
     padding: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 /* Texts and Typographies */
 .UseFont_Title1
 {
     font-family: Title1;
-    color:var(--TitleColor);
+    color:var(--ColorAccent);
     font-size: var(--TitleSize);
 }
 .UseFont_Description1
 {
     font-family: Desciption1;
-    color:var(--Description);
+    color:var(--ColorDescription);
     font-size: var(--DescriptionSize);
 }
 .UseFont_Title2
 {
     font-family: Title2;
-    color:var(--TitleColor);
+    color:var(--ColorAccent);
     font-size: var(--TitleSize);
 }
 .UseFont_Description2
@@ -44,7 +48,65 @@ body
     color:var(--Description);
     font-size: var(--DescriptionSize);
 }
-h1,h2,h3,h4,h5,h6,p,span{
-    padding: 0;
-    margin: 0;
+
+/*--- Layout Texts ---*/
+.Texts{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    justify-self: baseline;
+    justify-items: center;
+    width: 65%;
 }
+.rowgrow{
+    width: 100%;
+    height: max-content;
+    flex-shrink: initial;
+}
+
+/*--- Components ---*/
+
+h1,h2,h3,h4,h5,h6,p,span{padding: 0;margin: 0;}
+
+.Flex-Center-Col{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+#controls {
+    width: 100%;
+    height: 150px;
+    color: var(--ColorForeground1);
+    background-color: var(--ui_bg_container4);
+    border-radius: var(--ui_round_container4);
+    font-family: Desciption2;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    justify-content:space-evenly;
+    justify-self: center;
+    place-items: center;
+}
+button{ 
+    font-family: Desciption1;
+    color:var(--ColorForeground2);
+    padding: 16px 32px;
+    background-color: var(--ColorAccent);
+    width: max-content;
+    border: none;
+    margin: 0px 16px;
+    font-size: large;
+    border-radius: var(--ui_round_container4);
+    cursor: pointer;
+ }
+ button:hover{
+    background-color: var(--ColorPrimary);
+    color: var(--ColorForeground1);
+ }
+
+ .w-100{width:100%}
+ .w-75{width:75%}
+ .txt-center{text-align:center}
+ .center{display: block;margin:0 auto;}

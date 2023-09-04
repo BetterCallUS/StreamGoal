@@ -1,10 +1,14 @@
-assets/Frame1.png
-assets/Frame2.png
-assets/Frame3.png
-assets/Frame4.png
-assets/Frame5.png
-assets/Frame6.png
-assets/Frame7.png
-assets/Frame8.png
-assets/Frame9.png
-assets/Frame10.png
+
+
+
+    /*--- Goal Progress Photos ---*/
+    --Photo1:"assets/Frame1.png";
+    --Photo2:"assets/Frame2.png";
+    --Photo3:"assets/Frame3.png";
+    --Photo4:"assets/Frame4.png";
+    --Photo5:"assets/Frame5.png";
+    --Photo6:"assets/Frame6.png";
+    --Photo7:"assets/Frame7.png";
+    --Photo8:"assets/Frame8.png";
+    --Photo9:"assets/Frame9.png";
+    --Photo10:"assets/Frame10.png";    

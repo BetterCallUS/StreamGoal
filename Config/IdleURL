@@ -1,10 +1,11 @@
-assets/Frame1.gif
-assets/Frame2.gif
-assets/Frame3.gif
-assets/Frame4.gif
-assets/Frame5.gif
-assets/Frame6.gif
-assets/Frame7.gif
-assets/Frame8.gif
-assets/Frame9.gif
-assets/Frame10.gif
+/*--- Goal Progress Gifs ---*/
+    --Idle1:"assets/Frame1.gif";
+    --Idle2:"assets/Frame2.gif";
+    --Idle3:"assets/Frame3.gif";
+    --Idle4:"assets/Frame4.gif";
+    --Idle5:"assets/Frame5.gif";
+    --Idle6:"assets/Frame6.gif";
+    --Idle7:"assets/Frame7.gif";
+    --Idle8:"assets/Frame8.gif";
+    --Idle9:"assets/Frame9.gif";
+    --Idle10:"assets/Frame10.gif";

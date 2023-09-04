@@ -8,17 +8,31 @@
 </head>
 <body>
 
-    <div id="GoalFrame">
-        <div id="Title" class="UseFont_Title1"><h1>عنوان هدف</h1></div>
-        <div id="Progress" class="UseFont_Description1"><span>57٪ تست</span></div>
+    <div id="GoalFrame" draggable="false">
+        <div class="Texts">
+            <div id="Title" class="UseFont_Title1 rowgrow">
+                <h1>عنوان هدف طولانی تر از قبل</h1> <!-- Add API Title Here -->
+            </div>
+
+            <div id="Progress" class="UseFont_Description1">
+                <span>57٪ تست</span> <!-- Add API Progress Here -->
+            </div>
+        </div>
+        <!-- Goal Animations -->
         <div id="GoalSlides">
-            <img class="Photo" id="Frame1" src="./Code/Styles/assets/Marci.png" alt="XXX_Address is Wrong: Change Photo Name to (Frame1.png) _XXX">
+            <img class="Photo" id="Goal" src="./Themes/MarciHungry/IDLE/Ideal_0.gif" alt="XXX_Address is Wrong_XXX">
         </div>
     </div>
-    
-    <!--
-        <div id="Title" class="UseFont_Title2"><h1>عنوان هدف</h1></div>
-        <div id="Progress" class="UseFont_Description2"><span>۴۷٪</span></div>
-     -->
+
+    <div id="controls">
+        <div class="Flex-Center-Col w-100">
+            <button type="button">قبلی</button>
+            <button type="button" onclick="window.open('AppUI.html')">برنامه اصلی</button>
+            <button type="button">بعدی</button>
+        </div>
+        <p class="w-75 txt-center center">اینو کلا باید دیزاین کنم تو فیگما، این قسمت توی OBS کات میشه خودکار و فقط وقتی بره تو تنظیمات اوبی اس میتونه این دکمه ها رو ببینه و استفاده بکنه.</p>
+    </div>
+    <!-- <script src="Code/Scripts/storedata.js"></script>-->
+    <script src="Code/Scripts/Test.js"></script> 
 </body>
 </html>
