@@ -1,0 +1,64 @@
+#Planning Phase
+    [] Realsing MVP Version
+
+    [] Bug Fixes and More Themes
+
+    [] Publishing Windows Program 
+
+    [] Building our own website
+
+
+#Ideation Phase
+    [] Diffrent Themes
+    
+    [] Selling Custome Themes
+
+    [] Advertisment
+
+    [] Most Used Goals on Streams
+
+    [] Customizing the widget on browser or app
+        - Electrone JS Needed Maybe
+
+    [] Keeping Source Secret or Public? 
+        - Realsing Windows App 
+        - or Just Using Browsers for customizing this app
+
+#Develop Phase
+    [] Design: Simple(Essential) Themes
+        - Base Moudle 0% to 100%
+
+    [] Design: Categorised Themes
+        - Dota2 Marci
+        - Warcraft Frost Mourne
+
+    [] Design: Widget UI
+
+    [] Front-End: Animations and Layouting
+        - Transitions (fade-in,Move in...)
+
+    [] Back-End: API Results
+    [] Back-End: Files for saving data changes (like API Token)
+    [] Back-End: Goal Ended Notification on Screen
+
+# Release Phase
+
+    [] Testing Every Thing
+        - obs
+        - offline 
+        - online (vpn off/on)
+        - chrome 
+        - edge 
+        - firefox
+        - streaming band width (the whole program effect on streaming)
+
+    [] Publish on Social
+        - Github Repo,Package,Readme,Version
+        - Virgool Article[General Guide to use]
+        - Virgool Article[Guide to Test]
+        - Instagram Post
+        - Discord Server/Promote
+        - Virgool Article
+
+    [] Make it official (After some feed backs)
+        - Emailing to Reymit.
