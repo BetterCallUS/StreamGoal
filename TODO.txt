@@ -17,6 +17,11 @@
 
     [] Most Used Goals on Streams
 
+    [] Events
+        - Breaking Top Donate Record of the Day
+        - Top Donate of the Month Record
+        - 
+
     [] Customizing the widget on browser or app
         - Electrone JS Needed Maybe
 
@@ -24,13 +29,16 @@
         - Realsing Windows App 
         - or Just Using Browsers for customizing this app
 
+
 #Develop Phase
     [] Design: Simple(Essential) Themes
         - Base Moudle 0% to 100%
 
     [] Design: Categorised Themes
         - Dota2 Marci
-        - Warcraft Frost Mourne
+            ✔️ Bucket Animation 
+             Marci
+        - Warcraft Frost Mourne 
 
     [] Design: Widget UI
 
